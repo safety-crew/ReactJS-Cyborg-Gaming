@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
+import { Header, Container, Footer } from "./Components/index";
 
 const App = () => {
   return (
     <>
-      <h1>Hello World!</h1>
-      <p>No world, lol!</p>
+      <Header />
+      <Container />
+      <Footer />
     </>
   );
 };
