@@ -25,3 +25,11 @@ body {
   background-color: var(--color-bg-body);
   font-family: var(--font-family-primary);
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
