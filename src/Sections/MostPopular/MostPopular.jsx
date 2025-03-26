@@ -1,6 +1,6 @@
 import React from "react";
 import "./MostPopular.css";
-import { Card } from "../../Components/index";
+import { Card, SectionHeader, SectionWrapper } from "../../Components/index";
 import popular_01 from "../../assets/images/popular-01.jpg";
 import popular_02 from "../../assets/images/popular-02.jpg";
 import popular_03 from "../../assets/images/popular-03.jpg";
@@ -9,10 +9,8 @@ import popular_04 from "../../assets/images/popular-04.jpg";
 const MostPopular = () => {
   return (
     <>
-      <div className="section-wrapper">
-        <div className="section-header">
-          <h4>Most Popular</h4>
-        </div>
+      <SectionWrapper>
+        <SectionHeader>Most Popular</SectionHeader>
         <div className="most-popular-items">
           <Card
             image={popular_01}
@@ -71,7 +69,7 @@ const MostPopular = () => {
             downloads="6.1M"
           />
         </div>
-      </div>
+      </SectionWrapper>
     </>
   );
 };
