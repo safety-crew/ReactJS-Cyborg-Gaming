@@ -1,7 +1,13 @@
 import React from "react";
 import "./App.css";
 import { Container } from "./Components/index";
-import { Header, Footer, Hero, MostPopular } from "./Sections/index";
+import {
+  Header,
+  Footer,
+  Hero,
+  MostPopular,
+  GamingLibrary,
+} from "./Sections/index";
 
 const App = () => {
   return (
@@ -10,6 +16,7 @@ const App = () => {
       <Container>
         <Hero />
         <MostPopular />
+        <GamingLibrary />
       </Container>
       <Footer />
     </>
