@@ -8,12 +8,16 @@ import { Home, Profile } from "./Pages/index";
 const App = () => {
   return (
     <>
-      <Header />
-      <Container>
-        <Home />
-        <Profile />
-      </Container>
-      <Footer />
+      <Router>
+        <Header />
+        <Container>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
+        </Container>
+        <Footer />
+      </Router>
     </>
   );
 };
