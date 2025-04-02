@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { PrimaryButton } from "../../Components/index";
 
 const Hero = () => {
   return (
@@ -10,9 +11,7 @@ const Hero = () => {
           <em>Browse</em> Our Popular Games Here
         </h4>
 
-        <div className="main-button">
-          <a href="browse.html">Browse Now</a>
-        </div>
+        <PrimaryButton>Browse Now</PrimaryButton>
       </div>
     </div>
   );
