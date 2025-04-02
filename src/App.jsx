@@ -8,7 +8,7 @@ import { Home, Profile } from "./Pages/index";
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename="/ReactJS-Cyborg-Gaming">
         <Header />
         <Container>
           <Routes>
